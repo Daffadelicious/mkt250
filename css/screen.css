@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Carattere&display=swap');
+
+body{
+    padding-top: 60px;
+    background-color: #22223b;
+    color: #f2e9e4;
+
+}
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 5px;
+    font-size: 60px;
+    text-align: center;
+    color: #9a8c98;
+    margin: 10px;
+    /* filter: drop-shadow(1.5px 1px #f2e9e4)  */
+}
+
+h2{
+    text-align: center;
+    font-family: 'Carattere', cursive;
+    font-size: 30px;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+li{
+    padding: 20px;
+    border: solid white 2px;
+    border-radius: 15px;
+    margin: 30px;
+    list-style: none;
+    transition: transform 200ms ease-in-out 25ms;
+}
+
+li:hover{
+    transform: scale(1.1);
+    background-color: #4a4e69;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    text-align: center;
+}
