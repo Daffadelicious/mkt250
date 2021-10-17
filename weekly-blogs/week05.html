@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/screen.css">
+    <title>BriAnna Marsh | Week 03</title>
+</head>
+
+<body>
+    <header>
+        <a class="homeButton" href="../index.html">
+            <p>Back to Home</p>
+        </a>
+    </header>
+    <h1 class="blogH1">Week 05 | Site Design</h1>
+    <h2 class="blogH2">By BriAnna Marsh</h2>
+    <p class="blogPost">I'm glad we got to get into site design this week, it's one of my favorite topics!
+        I'm going to go a modern blocky and cell shaded look for my site which will hopefully give off a professional
+        but engaging look that others will find appealing. I am still offering my services for building others sites
+        and I want to show off my skills and some fun examples but I will save those for a portfolio page as opposed
+        to overwhelming users right away. As for the paypal button we looked at, this is something
+        completely new to me and I'm a little nervous about it. I know there's some legal requirements behind it
+        and I'm just hoping I can navigate everything properly without getting into trouble. I also need to look
+        a little more into it and see how much I can personally style the payment button while still following
+        the guidelines set in place. I also included the button here on this page.
+    </p>
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_xclick">
+        <input type="hidden" name="business" value="test@gmail.com">
+        <input type="hidden" name="lc" value="US">
+        <input type="hidden" name="item_name" value="Personal Website">
+        <input type="hidden" name="amount" value="300.00">
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="hidden" name="button_subtype" value="services">
+        <input type="hidden" name="no_note" value="0">
+        <input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynowCC_LG.gif:NonHostedGuest">
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" name="submit" alt="PayPal - The safer, easier way to pay online!">
+    </form>
+
+</body>
+
+</html>
