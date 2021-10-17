@@ -8,6 +8,9 @@ body{
     padding-top: 48px;
     background-color: #22223b;
     color: #f2e9e4;
+    border: solid #4a4e69 3px;
+    border-radius: 10px;
+    height: 100%;
 
 }
 
